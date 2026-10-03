@@ -1,7 +1,13 @@
 {
   "version": 1,
-  "prefixes": [
-    "https://main--eds-tutorial--nightprotocoll.aem.live/",
-    "https://main--eds-tutorial--nightprotocoll.aem.page/"
+  "connections": [
+    {
+      "name": "AEM",
+      "protocol": "aem",
+      "host": "https://author-p160157-e1740857.adobeaemcloud.com",
+      "pathMapping": {
+        "https://main--eds-tutorial--nightprotocoll.aem.page/": "/content/eds-tutorial/"
+      }
+    }
   ]
 }
