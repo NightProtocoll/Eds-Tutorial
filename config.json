@@ -5,7 +5,13 @@
       "/content/eds-tutorial/:/"
     ],
     "includes": [
-      "/content/eds-tutorial/**"
+      "/content/eds-tutorial/"
     ]
-  }
+  },
+  "mappings": [
+    "/content/eds-tutorial/:/"
+  ],
+  "includes": [
+    "/content/eds-tutorial/"
+  ]
 }
